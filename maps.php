@@ -85,7 +85,7 @@ var infowindow;
     var Connect = new XMLHttpRequest();
 
     // Define which file to open and send the request.
-    Connect.open("GET", "/db/markers.xml", false);
+    Connect.open("GET", "FILE_PATH", false);
     Connect.setRequestHeader("Content-Type", "text/xml");
     Connect.send(null);
 
